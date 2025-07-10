@@ -10,7 +10,7 @@ class Record:
 
     def add_birthday(self, input_date):
         date = Birthday(input_date)
-        self.phones.append(date)
+        self.birthday=date
    
     def add_phone(self, number):
         phone = Phone(number)
